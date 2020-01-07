@@ -1,7 +1,7 @@
 # Digital Filtering Code and Example##
 # Uses second order section (SOS) butterworth filtering to filter input signals with high
 # orders, which avoids numerical issues. Included are functions for low/high pass and band pass filters
-
+#New changes:
 from scipy.signal import butter, sosfiltfilt, sosfreqz
 import matplotlib.pyplot as plt
 import numpy as np
